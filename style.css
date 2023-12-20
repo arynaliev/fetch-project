@@ -1,9 +1,17 @@
 body {
   height: 100vh;
-  background-image: linear-gradient(to right top, red, yellow);
+  background-image: linear-gradient(to right, #c94b4b, #4b134f);
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.wordInput {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
 }
 
 .imgBox {
@@ -12,7 +20,7 @@ body {
 }
 
 .dogImg {
-  width: 300px;
+  width: 200px;
   height: 200px;
   margin: 10px;
 }
