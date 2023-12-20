@@ -1,14 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   background-image: linear-gradient(to right, #c94b4b, #4b134f);
   background-size: cover;
-  display: flex;
+  /* display: flex;
   /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
-.wordInput {
+/* .wordInput {
   padding: 0.5rem 1rem;
   border-radius: 10px;
   border: none;
@@ -39,4 +45,4 @@ body {
   border-radius: 15px 0;
   position: sticky;
   top: 0;
-}
+} */

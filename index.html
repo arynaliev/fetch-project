@@ -7,13 +7,15 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="imgBox">
-      <button class="getImgBtn" onclick="onClickHandler()">Get Image</button>
+   <h1>Get country info:</h1>
+   <input name="country" onchange="onChangeHandler(event)" type="text">
+   <button onclick="onSearchClick()">Search</button>
+   <div>
+      <h3 id="name">Country Name</h3>
+      <h3 id="population">Country Population</h3>
+      <h3 id="currency">Currency</h3>
+      <img src="" id="flag" alt="Flag" width="100px">
    </div>
-   <!-- <div class="audioBox">
-      <input class="wordInput" type="text" onchange="onChangeHandler(event)">
-      <audio class="audio"></audio>
-   </div> -->
 
    <script src="script.js"></script>
 </body>
