@@ -33,9 +33,9 @@ const onSearchClick = async () => {
     flag.style.width = "100px";
     flag.src = data[0].flags.png;
     name.textContent = data[0].name.official;
-    population.textContent = `Population is about ${data[0].population}`;
+    population.textContent = `Population: ${data[0].population}`;
     let currencyKey = Object.keys(data[0].currencies);
-    currency.textContent = `Currency is ${
+    currency.textContent = `Currency: ${
       data[0].currencies[currencyKey[0]].name
     }`;
 
