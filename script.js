@@ -85,10 +85,10 @@ const onSearchClick = async () => {
   const population = document.querySelector("#population");
   const currency = document.querySelector("#currency");
   const flag = document.getElementById("flag");
-
+  //
+  flag.src = data[0].flags.png;
   name.textContent = data[0].name.official;
   population.textContent = data[0].population;
   let currencyKey = Object.keys(data[0].currencies);
   currency.textContent = data[0].currencies[currencyKey[0]].name;
-  flag.src = data[0].flags.png;
 };

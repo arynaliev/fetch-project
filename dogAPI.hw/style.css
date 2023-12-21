@@ -4,33 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-  background-image: linear-gradient(to right, #c94b4b, #4b134f);
-  background-size: cover;
-  /* display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.navBar {
-  display: flex;
-  justify-content: space-around;
-  background-color: white;
-  padding: 1rem;
-}
-
-.countryInfo {
-  line-height: 1.5;
-  width: 30%;
-  height: 200px;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-  border-radius: 1rem;
-}
-
 /* .wordInput {
   padding: 0.5rem 1rem;
   border-radius: 10px;
