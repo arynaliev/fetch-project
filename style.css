@@ -40,3 +40,14 @@ body {
   background-color: white;
   border-radius: 1rem;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .countryInfo {
+    width: 100%;
+  }
+}
